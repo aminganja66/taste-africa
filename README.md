@@ -1,18 +1,56 @@
-# taste_africa
+# Taste Africa
 
-A new Flutter project.
+A Flutter food delivery app that celebrates African cuisine, connecting users with top-rated African restaurants across the continent.
+
+## Demo
+
+https://github.com/user-attachments/assets/design/Screen_Recording.mp4
+
+<video src="design/Screen_Recording.mp4" controls width="320"></video>
+
+## Features
+
+- **Delivery & Dining modes** — switch between food delivery and dine-in experiences via the bottom navigation bar
+- **Food categories** — browse African cuisine categories at a glance
+- **Featured restaurants** — curated selection of top African restaurants (West African, Ethiopian, South African, Pan African, Seafood)
+- **Top-rated restaurants** — sorted by user ratings
+- **Offer banners** — dynamic promotional banners on the home screen
+- **Location-aware header** — shows the user's delivery address
+
+## Screenshots
+
+| Home Header | Food Categories | Featured Restaurants |
+|---|---|---|
+| ![Home Header](design/home_header_design.png) | ![Food Categories](design/food_category_design.png) | ![Featured Restaurants](design/featured_restarants.png) |
+
+## Tech Stack
+
+- **Flutter** 3.x / **Dart** 3.x
+- Clean Architecture (feature-based folder structure: data / domain / presentation)
+- Material 3 theming
+
+## Project Structure
+
+```
+lib/
+├── app/               # App entry, shared widgets (nav bar, search bar, banners)
+├── core/              # Theme, colors, constants
+└── features/
+    ├── home/          # Home feature (entities, data, presentation)
+    ├── delivery/      # Delivery page
+    └── dining/        # Dining page
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK ≥ 3.11.5
+- Dart SDK ≥ 3.x
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# taste-africa
+```bash
+flutter pub get
+flutter run
+```
