@@ -4,9 +4,7 @@ A Flutter food delivery app that celebrates African cuisine, connecting users wi
 
 ## Demo
 
-https://github.com/user-attachments/assets/design/Screen_Recording.mp4
-
-<video src="design/Screen_Recording.mp4" controls width="320"></video>
+▶️ [Watch Demo Video](https://drive.google.com/file/d/17XJiGm6ik9DMnsUPEgFE2Zpw149hRgV9/view?usp=sharing)
 
 ## Features
 
@@ -19,9 +17,9 @@ https://github.com/user-attachments/assets/design/Screen_Recording.mp4
 
 ## Screenshots
 
-| Home Header | Food Categories | Featured Restaurants |
-|---|---|---|
-| ![Home Header](design/home_header_design.png) | ![Food Categories](design/food_category_design.png) | ![Featured Restaurants](design/featured_restarants.png) |
+| Screenshot 1 | Screenshot 2 |
+|---|---|
+| ![Screenshot 1](design/1.png) | ![Screenshot 2](design/2.png) |
 
 ## Tech Stack
 
